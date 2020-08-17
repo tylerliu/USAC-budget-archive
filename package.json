@@ -26,7 +26,7 @@
     "papaparse": "^5.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^3.4.3",
     "react-wordcloud": "^1.2.2",
     "recharts": "^1.8.5"
   },
@@ -61,5 +61,5 @@
     "gh-pages": "^2.2.0",
     "typescript": "^3.8.3"
   },
-  "homepage": "https://tylerliu.github.io/USAC-budget"
+  "homepage": "https://tylerliu.github.io/USAC-budget-archive"
 }
