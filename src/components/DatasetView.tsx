@@ -88,7 +88,7 @@ export default class DatasetView extends React.Component<DatasetProps, DatasetSt
                       onChange={(e, value) => this.onTabChange(value)}
                       variant="fullWidth"
                       indicatorColor="primary" textColor="primary">
-                    <Tab label="Table" value="table"/>
+                    <NarrowTab label="Table" value="table"/>
                     <NarrowTab label="Keywords" value="keyword"/>
                     <NarrowTab label="Fund" value="fund"/>
                     <NarrowTab label="Division" value="division"/>
