@@ -20,7 +20,7 @@ export default class Datasets {
         this.parseDataset(QueryBuilder.getInstance().getQuery())
         this.dataLoader = new DataLoader(this.currentDataset)
         QueryBuilder.getInstance().addGenerator(this.getQueryString.bind(this), 0)
-        fetch(window.location.pathname + "/datasets.json")
+        fetch("/datasets.json")
             .then(res => res.json())
             .then((res) => {
                 this.datasets = res

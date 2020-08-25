@@ -62,7 +62,7 @@ export default class DataLoader {
 
     private loadDataset(dataset: string | null) {
         if (dataset === null) return
-        Papa.parse(window.location.pathname + "/expense_summary_" + dataset + ".csv",
+        Papa.parse("/expense_summary_" + dataset + ".csv",
             {
                 download: true,
                 header: true,
